@@ -27,7 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Installing a Node Virtually
-        uses:  actions/setup-node@v2
+        uses:  actions/setup-node@v2-beta
         with: 
              node-version : 14.17.0
 
