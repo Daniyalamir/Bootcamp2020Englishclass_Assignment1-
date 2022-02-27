@@ -35,4 +35,4 @@ jobs:
       - name: Deploy surge 
         run:  npm install -g surge 
       - name: Deploying website on surge 
-        run : surge ./  myhelloworldapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run : surge ./  myhelloworldapp.surge.sh --token ${{secrets.SURGE}}
